@@ -1,2 +1,2 @@
-# quiche-the-cook
-my personal cookbook website
+# Quiche the Cook
+my own personal cookbook envisioned as a website
