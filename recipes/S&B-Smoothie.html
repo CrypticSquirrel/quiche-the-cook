@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <link rel='icon' href='assets/img/coffee.svg' type='image/x-icon'/ >
+        <link rel='icon' href='../assets/img/coffee.svg' type='image/x-icon'/ >
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <title>1337 Cooking</title>
         <link
@@ -13,13 +13,12 @@
         />
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
         <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css" />
-        <link rel="stylesheet" href="assets/css/bootstrap4-neon-glow.min.css" />
-        <link rel="stylesheet" href="assets/css/index.css" />
+        <link rel="stylesheet" href="../assets/css/bootstrap4-neon-glow.min.css" />
     </head>
     <body>
         <nav class="navbar navbar-expand-lg bg-danger">
-            <a class="navbar-brand text-white ml-1" href="#"
-                ><img src="assets/img/coffee.svg" alt="logo"
+            <a class="navbar-brand text-white ml-1" href="../index.html"
+                ><img src="../assets/img/coffee.svg" alt="logo"
             /></a>
 
             <button
@@ -36,7 +35,6 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    
                     <li class="nav-item dropdown">
                         <a
                             class="nav-link dropdown-toggle text-white"
@@ -50,24 +48,48 @@
                             Drinks
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item text-white" href="recipes/A&B-Shake.html">Apple Banana Shake</a>
-                            <a class="dropdown-item text-white" href="recipes/S&B-Smoothie.html">Strawberry Banana Smoothie</a>
+                            <a class="dropdown-item text-white" href="A&B-Shake.html">Apple Banana Shake</a>
+                            <a class="dropdown-item text-white" href="#">Strawberry Banana Smoothie</a>
                         </div>
                     </li>
-                    
                 </ul>
             </div>
         </nav>
 
         <div class="d-flex align-items-center justify-content-center vh-100">
-            <button
-                type="button"
-                class="hal-9000"
-                data-container="body"
-                data-toggle="popover"
-                data-placement="top"
-                data-content="I'm sorry Dave, I'm afraid I can't do that."
-            ></button>
+            <div class="col-8">
+                <table class="table table-hover table-striped">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Quantity</th>
+                            <th>Ingredients</th>
+                            <th>Extra Instructions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Straberries</td>
+                            <td>Frozen</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Bananas</td>
+                            <td>Peeled, Chopped & Frozen</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">1/2 cup</th>
+                            <td>Juice</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2 tbsp</th>
+                            <td>Yogurt</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
 
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
